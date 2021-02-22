@@ -1,0 +1,13 @@
+LAB_NAME="Example"
+	LAB_DESCRIPTION="A simple example of lab.conf"
+	LAB_VERSION=1.0
+	LAB_AUTHOR="Kathara Authors"
+	LAB_EMAIL=contact@kathara.org
+	LAB_WEB=http://www.kathara.or
+	r1[0]="A"
+	r1[1]="B"
+	r1[port]=32000
+	r1[image]="namespace/image_name"
+	r1[sysctl]="net.ipv6.conf.all.forwarding=1"
+	pc1[0]="A";
+	serverdhcp[0]="A"

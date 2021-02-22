@@ -1,0 +1,2 @@
+route add default gw 10.0.3.1
+dhclient
